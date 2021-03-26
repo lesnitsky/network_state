@@ -1,6 +1,6 @@
 name: network_state
 description: Service aware network state plugin
-version: 0.0.1
+version: 0.0.2
 author: Andrei Lesnitsky <andrei.lesnitsky@gmail.com>
 homepage: https://github.com/lesnitsky/network_state
 
