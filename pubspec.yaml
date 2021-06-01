@@ -1,6 +1,6 @@
 name: network_state
 description: Service aware network state plugin
-version: 0.0.1
+version: 0.0.2
 author: Andrei Lesnitsky <andrei.lesnitsky@gmail.com>
 homepage: https://github.com/lesnitsky/network_state
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.12.0+2
+  http: ^0.13.1
 
 dev_dependencies:
   flutter_test:

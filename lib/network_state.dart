@@ -76,7 +76,7 @@ class NetworkState with ChangeNotifier {
       result = await Future.any([
         Future.wait(
           NetworkConfig.pingUrls.map(
-            (url) => _client.head(url),
+            (url) => _client.head(Uri.parse(url)),
           ),
         ),
         Future.delayed(Duration(milliseconds: NetworkConfig.timeoutMs)),
